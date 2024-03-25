@@ -11,20 +11,20 @@ interface SidebarItemsProps {
 export default function SidebarItems({ handleToggleSection, activeSection }:SidebarItemsProps) {
   return (
     <div>
-      <div className='flex py-4 items-center pl-[20px] space-x-5 sm:space-x-10 pr-[20px]'>
+      <div className='flex py-2 items-center space-x-4 pl-[10px] sm:pl-[20px] pr-[20px]'>
         <div className='flex items-center'>
-          <HiOutlineUserCircle className='text-4xl' />
-          <div className='text-2xl ml-2'>Hello, User</div>
+          <HiOutlineUserCircle className='text-2xl' />
+          <div className='text-xl ml-2'>Hello, User</div>
         </div>
-        <div><IoIosNotifications className='text-4xl' /></div>
+        <div><IoIosNotifications className='text-2xl' /></div>
       </div>
       <hr />
       <div>
-        <div className={`flex pl-2 items-center py-2 gap-1 text-2xl cursor-pointer ${activeSection === 'forum' ? 'bg-blue-950' : 'text-white'}`} onClick={() => handleToggleSection('forum')}>
+        <div className={`flex pl-2 items-center py-2 gap-1 text-xl cursor-pointer ${activeSection === 'forum' ? 'bg-blue-950' : 'text-white'}`} onClick={() => handleToggleSection('forum')}>
           <MdOutlineMessage />
           <span>Discussion Forum</span>
         </div>
-        <div className={`flex pl-2 items-center py-2 gap-1 text-2xl cursor-pointer ${activeSection === 'market' ? 'bg-blue-950' : 'text-white'}`} onClick={() => handleToggleSection('market')}>
+        <div className={`flex pl-2 items-center py-2 gap-1 text-xl cursor-pointer ${activeSection === 'market' ? 'bg-blue-950' : 'text-white'}`} onClick={() => handleToggleSection('market')}>
           <MdTimeline />
           <span>Market Stories</span>
         </div>

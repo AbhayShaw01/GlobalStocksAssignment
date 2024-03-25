@@ -6,7 +6,7 @@ import { discussionData } from '@/constants/data';
 
 export default function DiscussionForum() {
   return (
-    <div className='sm:py-2 pb-5 px-4 sm:mt-10  '>
+    <div className='sm:py-2 pb-5 px-2 sm:mt-10  '>
       {discussionData.map((item, index: number) => (
         <Card key={index} {...item} />
       ))}

@@ -1,7 +1,7 @@
 export interface DiscussionItem {
 
     title: string;
-    Section: number;
+    Section: string;
     description:string
     likes: string;
     views: string;
@@ -14,7 +14,7 @@ export const discussionData:DiscussionItem[]=[
     {
 
         title:'lorem Ipsum',
-        Section:2,
+        Section:"Section 2",
         description:' Lorem ipsum dolor sit, amet consectetur adipisicing elit. quibusdam assumenda iure eaque, in veritatis consequatur eius laudantium?',
         likes:"2k",
         views:"2k",
@@ -24,7 +24,7 @@ export const discussionData:DiscussionItem[]=[
     },
     {
         title:'lorem Ipsum',
-        Section:2,
+        Section:"Section 2",
         description:' Lorem ipsum dolor sit, amet consectetur adipisicing elit. quibusdam assumenda iure eaque, in veritatis consequatur eius laudantium?',
         likes:"2k",
         views:"2k",
@@ -34,7 +34,7 @@ export const discussionData:DiscussionItem[]=[
     },
     {
         title:'lorem Ipsum',
-        Section:2,
+        Section:"Section 2",
         description:' Lorem ipsum dolor sit, amet consectetur adipisicing elit. quibusdam assumenda iure eaque, in veritatis consequatur eius laudantium?',
         likes:"2k",
         views:"2k",
@@ -44,7 +44,7 @@ export const discussionData:DiscussionItem[]=[
     },
     {
         title:'lorem Ipsum',
-        Section:2,
+        Section:"Section 2",
         description:' Lorem ipsum dolor sit, amet consectetur adipisicing elit. quibusdam assumenda iure eaque, in veritatis consequatur eius laudantium?',
         likes:"2k",
         views:"2k",

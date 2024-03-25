@@ -15,7 +15,7 @@ export default function Card({ ...discussionData }: DiscussionItem) {
       <div className="flex-1">
         <div className="flex items-center gap-4 my-2 mx-2">
           <p>{discussionData.title}</p>
-          <p className="px-4 py-1 bg-blue-950 text-white rounded-2xl">Sector 2</p>
+          <p className="px-4 py-1 bg-blue-950 text-white rounded-2xl">{discussionData.Section}</p>
         </div>
         <p className="mx-2 my-2 line-clamp-2">
           {discussionData.description}

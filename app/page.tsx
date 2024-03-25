@@ -22,13 +22,13 @@ export default function HomePage() {
       <div className={`flex-grow ${openSideBar ? 'sm:pl-[400px]' : ''}`}>
         <div className="flex flex-row justify-between sm:hidden">
           <h2
-            className={`text-center text-xl font-bold p-4  bg-blue-900  text-white  w-full cursor-pointer ${activeSection === 'forum' ? 'bg-blue-950  border-b-4 border-orange-400' : 'text-blue-800'}`}
+            className={`text-center text-sm sm:text-xl uppercase font-bold p-2  bg-blue-900  text-white  w-full cursor-pointer ${activeSection === 'forum' ? 'bg-blue-950  border-b-4 border-orange-400' : 'text-blue-800'}`}
             onClick={() => handleToggleSection('forum')}
           >
             Discussion Forum
           </h2>
           <h2
-            className={`text-center text-xl  p-4 w-full bg-blue-900 text-white font-semibold cursor-pointer ${activeSection === 'market' ? ' bg-blue-950 border-b-4 border-orange-400' : 'text-blue-800'}`}
+            className={`text-center text-sm  uppercase sm:text-xl  p-2 w-full bg-blue-900 text-white font-semibold cursor-pointer ${activeSection === 'market' ? ' bg-blue-950 border-b-4 border-orange-400' : 'text-blue-800'}`}
             onClick={() => handleToggleSection('market')}
           >
             Market Stories
