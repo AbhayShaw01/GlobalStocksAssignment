@@ -15,7 +15,7 @@
 - Navigate to the project directory:
   
   ```
-  cd global-stocks-india
+  cd GlobalStocksAssignment
   ```
    Run the Poject
   ```bash
