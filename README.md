@@ -17,7 +17,7 @@
   ```
   cd GlobalStocksAssignment
   ```
-   Install frontend dependencies:
+   Install  dependencies:
   ```
   npm install
   ```
