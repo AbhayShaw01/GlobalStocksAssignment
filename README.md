@@ -17,6 +17,10 @@
   ```
   cd GlobalStocksAssignment
   ```
+   Install frontend dependencies:
+  ```
+  npm install
+  ```
    Run the Poject
   ```bash
   npm run dev
