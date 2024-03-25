@@ -25,4 +25,7 @@
   ```bash
   npm run dev
   ```
+  Access Assignment in Your Browser:
+     - Once the project is running, open your browser.
+     - Enter `localhost:3000` in the address bar to access the  application.
   
